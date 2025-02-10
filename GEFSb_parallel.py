@@ -67,7 +67,7 @@ while download_ntime <= download_etime:
                 f = pd.read_fwf(download_idx_name, header=None)
                 
 # this code constrains the byte range to download
-# identify the a paramer to download by name if only interested in specific variable
+# identify the a parameter to download by name if only interested in specific variable (can be found in idx)
 # for full forecast, code can be commented out and grib command adjusted to remove byte range
 # note this needs to be edited for else statement as well
 
